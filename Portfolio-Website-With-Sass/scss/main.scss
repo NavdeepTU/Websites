@@ -389,7 +389,11 @@ img {
 
       &:hover {
         background: $main-color;
+        cursor: pointer;
       }
     }
   }
 }
+
+// Import Media Queries
+@import 'media';

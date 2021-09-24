@@ -1,11 +1,25 @@
 // Tablets & Smaller
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   #header-home {
     height: 30rem;
 
     .header-content {
       padding-top: 5rem;
     }
+  }
+
+  // article .items {
+  //   grid-template-columns: 1fr;
+  // }
+
+  .item-text-title {
+    font-size: 1rem;
+    padding: 0 0.5rem;
+    margin: 2px;
+  }
+
+  .item-text-category {
+    font-size: 0.5rem;
   }
 }
 
@@ -41,7 +55,7 @@
   #home-b .stats,
   #home-c .process,
   #about-d .testimonials,
-  .items,
+  article .items,
   #contact-b .contact-info {
     grid-template-columns: 1fr;
   }

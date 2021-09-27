@@ -309,6 +309,34 @@ img {
         width: 70%;
         color: $medium-color;
       }
+
+      .fa-html5 {
+        color: #e44d26;
+      }
+
+      .fa-css3-alt {
+        color: #214ce5;
+      }
+
+      .fa-js-square {
+        color: #e4a126;
+      }
+
+      .fa-react {
+        color: #61dafb;
+      }
+
+      .fa-java {
+        color: #0e8ac8;
+      }
+
+      .fa-python {
+        color: #ffdb4a;
+      }
+
+      .fa-database {
+        color: #56a6db;
+      }
     }
   }
 
@@ -316,8 +344,9 @@ img {
   &-d {
     .testimonials {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       grid-gap: 0.5rem;
+      justify-content: center;
 
       ul {
         list-style: none;
